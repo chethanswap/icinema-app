@@ -53,7 +53,7 @@ class Movies extends Component {
 
     let filteredMovies = [];
 
-    /* Checking for searched item if nothing searched it will just set it to allMovies*/
+  
     filteredMovies = search(movies, searchFilter, "title");
     filteredMovies = categorize(filteredMovies, currentGenre);
     filteredMovies = filterRating(filteredMovies, rating);
