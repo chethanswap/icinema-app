@@ -18,26 +18,3 @@ A full-stack MERN website for movie theaters that allows users to browse for fil
   <li> Add a new movie to the list.</li>
 </ul>
 
-<h2> API </h2>
-
-<h4> Users </h4>
-<ul>
-  <li> <b>POST</b> /api/auth/signUp </li>
-  <li> <b>POST</b>  /api/auth/signIn  </li>
-
-   <li> <b>PATCH</b>  /api/users/:userId  </li>
-  <li> <b>DELETE</b>  /api/users/:userId </li>
-</ul>
-
-<h4> Movies </h4>
-<ul>
-  <li> <b>GET</b> /api/movies</li>
-  <li> <b>GET</b> /api/movies/:movieId</li>
-  <li> <b>POST</b> /api/movies/addMovie</li>
-  <li> <b>PATCH</b> /api/movies/:movieId</li>
-</ul>
-
-<h4> Genres </h4>
-<ul>
-  <li> <b>GET</b> /api/genres </li>
-</ul>
