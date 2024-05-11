@@ -14,8 +14,7 @@
     "build-frontend": "npm run setup-frontend && cd frontend && npm run build",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build-frontend"
   },
-  "author": "Orif Milod",
-  "license": "MIT",
+  "author": "Chethan",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
